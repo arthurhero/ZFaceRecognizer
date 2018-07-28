@@ -1,11 +1,3 @@
-//
-//  AppDelegate.swift
-//  ZFaceRecognizer
-//
-//  Created by Ziwen Chen on 7/23/18.
-//  Copyright © 2018 Ziwen Chen. All rights reserved.
-//
-
 import UIKit
 
 @UIApplicationMain
