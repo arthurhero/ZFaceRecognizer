@@ -43,8 +43,8 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
              */
             mainImageView.image = res!
             Person.fetchPeople(image: res!) { (persons) in
-                people=persons
-                tableView.reloadData()
+                self.people=persons
+                self.tableView.reloadData()
             }
         } else {
             mainImageView.image = UIImage(ciImage: raw)
