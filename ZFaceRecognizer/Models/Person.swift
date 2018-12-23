@@ -1,6 +1,6 @@
 import UIKit
 
-let host = "http://chenziwe.com/zfacenet"
+let host = "http://184.105.225.21/zfacenet"
 
 class Person: NSObject {
     
